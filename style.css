@@ -1,0 +1,542 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+header{
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.logo{
+  width: 100px;
+
+}
+
+.name,
+.logo{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.name{
+font-size: 30px;
+font-weight: bold;
+}
+
+.right{
+display: flex;
+margin-right: 60px;
+vertical-align: middle;
+align-items: center;
+}
+
+.right .nav{
+margin-left: 40px;
+margin-right: 40px;
+font-weight: 700;
+}
+
+.get-started{
+  width: 117px;
+  height: 38px;
+  border-radius: 6px;
+  border-width: 1;
+  background-color: #3C3C59;
+  color: white;
+  border: none;
+  font-weight: bold;
+}
+
+/*********************/
+
+.text-stuff{
+  display: inline-block;
+  
+  vertical-align: middle;
+
+}
+.about{
+  margin-top: 200px;
+  margin-left: 50px;
+}
+
+
+
+
+.border-line{
+  border-width: 4px;
+  width: 55px;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: #3C3C59;
+  margin-bottom: 30px;
+
+}
+
+.title{
+  font-size: 55px;
+  color: #3C3C59;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.content{
+  margin-bottom: 40px;
+  line-height: 25px;
+}
+
+
+.buttons{
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
+  justify-content: space-between;
+  width: 380px;
+
+}
+
+
+.signup-button{
+  width: 150px;
+  height: 45px;
+  border-radius: 5px; 
+  background-color: #3C3C59;
+  color: white;
+  border: none;
+  font-weight: 600;
+}
+
+
+.watch-reel{
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
+}
+
+.play-button{
+width: 50px;
+margin-right: 15px;
+}
+
+
+.about-picture{
+  display: inline-block;
+  width: auto;
+  height: auto;
+  vertical-align: middle;
+}
+
+
+.picture{
+  width: 400px;
+  height: 350x;
+  margin-left: 300px;
+}
+.other-brand{
+  display: flex;
+  margin-top: 100px;
+}
+
+
+.other-brand img{
+  width: 400px;
+  overflow: hidden;
+}
+
+.feature-title{
+  display: flex;
+  font-weight: bold;
+  font-size: 35px;
+  justify-content: center;
+  margin-top: 40px;
+  color: #3C3C59;
+}
+
+.feature-boxes{
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-evenly;
+}
+
+.box,
+.box-2,
+.box-3{
+  background-color: #EEFAF4;
+  width: 340px;
+  height: 170px;
+ padding-top:  50px ;
+ padding-left: 20px;
+ padding-right: 20px;
+ border-radius: 20px;
+ }
+ 
+
+.box img,
+.box-2 img,
+.box-3 img{
+  width: 35px;
+display: inline;
+vertical-align: top;
+margin-right: 17px;
+}
+
+
+.box-texts,
+.box2-texts,
+.box3-texts{
+  display: inline-block;
+  line-height: 20px;
+}
+.box-title,
+.box2-title,
+.box3-title{
+  color: #3C3C59;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 17px;
+  margin-top: 8px;
+}
+.box-text,
+.box2-text,
+.box3-text{
+color: gray;
+font-size: 14px;
+}
+
+
+
+.box-2{
+  background-color: #F6F5FF;
+}
+
+.box-3{
+  background-color: #E8F4FF;
+}
+
+.pay-section,
+.getpaid-section{
+  display: flex;
+  margin-top: 200px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.pay-section-image,
+.getpaid-image{
+  width: 700px;
+}
+
+
+.pay-section-texts,
+.getpaid-texts{
+display: flex;
+flex-direction: column;
+margin-left: 50px;
+}
+
+.pay-section-title,
+.getpaid-title{
+color: #3C3C59;
+font-weight: bold;
+font-size: 45px;
+margin-bottom: 45px;
+}
+
+.pay-section-text,
+.getpaid-text{
+  line-height: 28px;
+  margin-bottom: 60px;
+}
+
+.pay-getstarted{
+  width: 170px;
+  height: 50px;
+  border-radius: 5px; 
+  background-color: #3C3C59;
+  color: white;
+  border: none;
+  font-weight: 600;
+}
+
+.getpaid-title{
+  margin-bottom: 20px;
+}
+
+
+.getpaid-text{
+  line-height: 27px;
+  margin-bottom: 20px;
+}
+
+
+.getpaid-image{
+  width: 800px;
+}
+
+.getpaid-section{
+  margin-bottom: 150px;
+}
+
+
+.onlinestore-title,
+.ways-to-get-paid-title{
+  font-weight: bold;
+  font-size: 40px;
+  color: #3C3C59;
+  display: flex;
+ justify-content: center;
+ margin-bottom: 35px;
+}
+
+
+.online-store-text,
+.ways-to-get-paid-text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.onlinestore-image{
+  width: 600px;
+  margin-left: 150px;
+  margin-top: 50px;
+}
+
+.onlinestore-bottom{
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
+}
+
+.online-store-info{
+  margin-left: 100px;
+margin-top: 100px;
+}
+
+
+.info-title{
+color: #3C3C59;
+font-weight: bold;
+font-size: 20px;
+margin-bottom: 15px;
+}
+
+.info-description{
+  line-height: 24px;
+  font-size: 15px;
+}
+
+
+
+.view{
+  color: #3C3C59;
+  font-weight: bold;
+  margin-top: 40px;
+}
+
+.onlinestore-section{
+  margin-bottom: 100px;
+  background-color: rgb(244, 244, 244);
+  padding-top: 100px;
+}
+
+.ways-to-get-paid-image{
+  margin-left: 300px;
+}
+
+
+.ways-to-get-paid-section{
+  margin-bottom: 100px;
+}
+
+
+.people-story-title{
+  font-weight: bold;
+  font-size: 35px;
+  margin-left: 200px;
+}
+
+.arrow-left,
+.arrow-right{
+  width: 40px;
+}
+
+.people-story-top{
+  display: flex;
+}
+
+.people-story-title{
+  margin-right: 400px;
+}
+
+.arrows{
+  margin-top: 30px;
+
+}
+
+.arrow-right{
+  width: 50px;
+  margin-left: 20px;
+}
+
+
+
+.comments{
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  vertical-align: middle;
+  align-items: center;
+  margin-bottom: 150px;
+}
+
+.commenter-pfp{
+  width: 40px;
+}
+
+.commenter{
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.yellow-text{
+  color: rgb(255, 164, 16);
+}
+
+.commenter-name{
+  margin-left: 10px;
+}
+
+
+
+.people-story-section{
+  background-color: rgb(244, 244, 244);
+  padding-top: 100px;
+  padding-bottom: 10px;
+}
+
+
+.bottom{
+  margin-top: 150px;
+}
+
+.subscribe{
+  display: flex;
+  justify-content: center;
+  color: rgb(88, 88, 88);
+  vertical-align: middle;
+  align-items: center;
+}
+
+.subscribe-text{
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+.email-button{
+  width: 280px;
+  height: 45px;
+  border-radius: 3px;
+  font-size: 15px;
+  border: none;
+  background-color: rgb(244, 244, 244);
+  padding: 20px 10px 20px 20px;
+}
+
+.ok-button{
+  width: 50px;
+  color: rgb(255, 164, 16);
+  height: 45px;
+  border: none;
+ border-top-right-radius: 6px;
+ border-bottom-right-radius: 3px;
+  border-left: solid 2px rgb(197, 194, 194)  ;
+  
+}
+
+
+.middle-of-bottom .logo{
+  width: 70px;
+}
+
+.middle-of-bottom .name{
+  font-size: 20px;
+}
+
+.middle-of-bottom{
+  margin-top: 100px;
+}
+
+.middle-of-bottom{
+  display: flex;
+  align-items: center;
+}
+
+.footer-menu-section{
+  display: flex;
+  margin-left: 190px;
+}
+
+.footer-text{
+  margin-left: 50px;
+}
+
+.usa-flag{
+  width: 30px;
+}
+
+.usa{
+  margin-left: 250px;
+}
+
+.logo-and-name{
+  margin-left: 70px;
+}
+
+.line{
+  display: flex;
+  border: solid 1px rgb(223, 218, 218);
+  width: 1300px;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+.copy-right{
+  color: gray;
+  font-size: 14px;
+  margin-left: 100px;
+}
+
+.bottom-of-bottom{
+  display: flex;
+  margin-top: 25px;
+}
+
+.footerLinksSection{
+  display: flex;
+  margin-left: 300px;
+}
+
+.footerlink-text{
+  margin-left: 50px;
+  color: gray;
+  font-size: 15px;
+}
+
+.icons{
+  width: 27px;
+  margin-left: 15px;
+}
+
+.socials{
+  display: flex;
+  margin-left: 330px;
+}
